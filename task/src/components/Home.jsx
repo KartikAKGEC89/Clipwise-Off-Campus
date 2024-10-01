@@ -71,10 +71,10 @@ const Home = () => {
             </p>
           </div>
           <div className='flex flex-row space-x-4'>
-            <button className='bg-white text-[#215885] font-bold text-2xl p-4 border-0 rounded-lg'>
+            <button className='bg-white text-[hsla(205,55%,43%,1)] font-semibold text-2xl p-4 border-0 rounded-lg'>
               Shop Now
             </button>
-            <button className='text-[#215885] font-bold text-2xl p-4 border-0 rounded-lg'>
+            <button className='text-[hsla(205,55%,43%,1)] font-semibold text-2xl p-4 border-0 rounded-lg'>
               About Us
             </button>
           </div>

@@ -62,8 +62,8 @@ const Product = () => {
 
       
       <div className="flex justify-start w-full max-w-7xl mb-8">
-        <div className="text-gray-500 mr-10">Filter: <span className="font-bold text-black">All Products</span> &#9660;</div>
-        <div className="text-gray-500">Sort: <span className="font-bold text-black">Best Selling</span> &#9660;</div>
+        <div className="text-[hsla(205,25%,30%,1)]  mr-12 font-semibold">Filter: <span className="font-bold text-[hsla(205,55%,43%,1)]">All Products</span> &#9660;</div>
+        <div className="text-[hsla(205,25%,30%,1)] font-semibold">Sort: <span className="font-bold text-[hsla(205,55%,43%,1)]">Best Selling</span> &#9660;</div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-8xl mb-8">
@@ -73,9 +73,9 @@ const Product = () => {
             className="relative bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:z-10"
           >
             <img src={product.imageUrl} alt={product.name} className="h-48 w-48 object-contain mb-4" />
-            <h2 className="text-lg font-bold mb-2 text-center">{product.name}</h2>
-            <p className="text-[#215885] font-semibold mb-4">{product.price}</p>
-            <button className="bg-white text-[#6FB4FF] px-4 py-2 border-2 border-[#6FB4FF] rounded-lg transition-all duration-300 hover:bg-gradient-to-r from-[#75CCEB] to-[#6FB4FF] hover:text-white">
+            <h2 className="font-semibold text-xl mb-2 text-center text-[hsla(205,25%,30%,1)]">{product.name}</h2>
+            <p className="text-[hsla(205,55%,43%,1)] font-bold mb-4 text-xl">{product.price}</p>
+            <button className="bg-white text-[#6FB4FF] px-8 py-2 border-2 border-[#6FB4FF] rounded-lg transition-all duration-300 hover:bg-gradient-to-r from-[#75CCEB] to-[#6FB4FF] hover:text-white">
               Buy Now
             </button>
           </div>
