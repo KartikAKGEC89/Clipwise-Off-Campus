@@ -57,7 +57,7 @@ const Home = () => {
         )}
       </nav>
 
-      <div className='h-full flex justify-center'>
+      <div className='responsive h-full flex justify-center'>
         <div className='w-1/2 flex flex-col items-start space-y-4 mt-36 ml-36'>
           <h2 className='text-white font-google-sans text-4xl font-semibold leading-[48px] mb-4'>
             Welcome to
